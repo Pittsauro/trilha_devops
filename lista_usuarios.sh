@@ -1,1 +1,1 @@
-sed '/^$/d' /home/oracle/automacao/usuarios.txt > /home/oracle/trilha_devops/lista_usuarios.txt
+sed '/^$/d' /home/oracle/trilha_devops/usuarios.txt > /home/oracle/trilha_devops/lista_usuarios.txt
