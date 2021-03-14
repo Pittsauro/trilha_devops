@@ -1,1 +1,1 @@
-sed '/^$/d' /home/oracle/automacao/diretorios.txt > /home/oracle/automacao/lista_diretorios.txt
+sed '/^$/d' /home/oracle/trilha_devops/diretorios.txt > /home/oracle/trilha_devops/lista_diretorios.txt
