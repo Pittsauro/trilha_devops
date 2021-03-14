@@ -3,7 +3,7 @@ set head off;
 set feedback off;
 set echo off;
 set verify off trimspool on
-spool /home/oracle/automacao/usuarios.txt
+spool /home/oracle/trilha_devops/usuarios.txt
 SELECT USERNAME FROM DBA_USERS WHERE USERNAME NOT IN ('SYS','SYSTEM','SHOW','OUTLN','MGMT_VIEW','FLOWS_FILES','MDSYS','ORDSYS','EXFSYS','DBSNMP','WMSYS','APPQOSSYS','APEX_030200','OWBSYS_AUDIT','ORDDATA','CTXSYS','ANONYMOUS','SYSMAN','XDB','ORDPLUGINS','OWBSYS','SI_INFORMTN_SCHEMA','OLAPSYS','ORACLE_OCM','XS$NULL','MDDATA','DIP','APEX_PUBLIC_USER','SPATIAL_CSW_ADMIN_USR','SPATIAL_WFS_ADMIN_USR') ORDER BY USERNAME;
 spool off;
 exit
